@@ -1,3 +1,10 @@
 language: ruby
 rvm:
 - 2.3.5
+deploy:
+  provider: heroku
+  api_key:
+    secure: cVAWdZdT/28fYZbc06irWEQgxYu91Y2tNLZg22zUSa1DuJ+fA5ZSRcG+3Di0MeccYhhTetGS9v3xfOGd+IlY+KlVpdeIvx8yP2CntVUThzAGd18Nh3hFvsJOIUPhyJhKMwm3ZdF04Mm6imVkIhc+5Lpb5GBbn2HpneJWaQHU7Jvcx6TVgVpMa+FaMz8eo3Uub5J9y/Jstw6fwhEoYg5wjQy7Y/0Z6QjXdWWrRLSiXUUr7Mt1SdAQZYfdecTOQguUxA7jqhRnsHseu7tDwkKt9O00aMpkIkh9ICtB1X+hotbiljFGP6tJP4rwOAepqAeZmWiev4NO8cKfwH++Ty/wmQK+bC2+tBY4ATwrNBSXIjErIhcBONqycaYKIZLmF5jthfs0ql60W0En967AldrlU3SyotzYt37azcgZVg92wmTLRTp+wLIIfKjI+jfCzQ4GxQwyewnVmcKnBVgGzBCeJd9+Sm71nBtwb2puDcg2omSFPlOBBIYnKX0PsQWsJkNWRvV+YGW7H5SlwCvw8EyAQt7eMPRgasieiXA1OiyjkFJbY9B9oE0HIt443f87LCaBu1D2fcA0CR1oVDnxCBp1gWFwDhqLg1kkBPlw9p1QQtdDxDwuPBDJAISWn85wbbZ6kRAm5oOavt6SAegLBgJNb9/mz7ejxfiwhTWkzUZTXqo=
+  app: project
+  on:
+    repo: Nathan-HyDs/project
