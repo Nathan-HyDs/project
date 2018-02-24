@@ -1,5 +1,12 @@
 language: ruby
 rvm:
- - 2.2
- - jruby
- - rbx-3
+- 2.2
+- jruby
+- rbx-3
+deploy:
+  provider: heroku
+  api_key:
+    secure: mZwRhxUe97InGTuB8crnYA92ZdV15wGy3NJcjaAZVo2t4fj99WkCi2hW6dQIGBPSdmS19AOv+YPF2472UWhv5SuUmgy2gyJ5X0mZ1d9szouu3rK/3HxUwHXY8P8tsqjpb+v75qnNSqnGRL0rpJB10N1VF2dw/KqqmpfoDnMUyZTRzim0viGo6iZ40qpxFCZChQj6nt2uv9CxeywQ+VQu7RBFTEYKXYdRcoes2AbPJnomlB336lA3P0EL20gkfHxtBZyjzGIOaLyt4XCOBSPNhCC77upFfyyNnYxwdtBNJT8WRmmTYFkD4apEa1JLg4hgb1QjKsUubCcSaKQ7/LSc/BQ/AACqcO+Ig3LZh1qzPcrDL9K+qjyDMzlWtLHNt40UYzeC3QOE0xz+HpijGvKB0UP6Hb/Qa+1Ac24Bf/aj94TNj6AQc0yjaWiYcBcjazCUD0vjjR9O6jDRRuSnX7qSAmsByqPffWcZ4j7N3ML4/M1soaf7g3UlLgDweO5zu48/vXgtb1oPifTj0xQnEYhy2LrSn/gWOwEi10omctKstuhrPY9YMWWpXKsXptPaCzvRudANKnyfpuWx+MVtvl/m3LwNDc1nnworFF2BWcoYe94M4+CfGnK4nTauXE2nfyV+bVbmLpGFq/WnrbdwD3HhgDYsXehqyjV8tv+4ymtl3yA=
+  app: project
+  on:
+    repo: Nathan-HyDs/project
